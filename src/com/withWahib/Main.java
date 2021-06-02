@@ -10,10 +10,10 @@ public class Main {
         System.out.println(" أدخل طول الارقام العشوائية في الصف الواحد  : ");
         int y=in.nextInt();
 
-        System.out.println(" تبداء الارقام العشوائية من  : ");
+        System.out.println(" ما هو اعلى رقم تريد تخمينه ؟   : ");
         int g=in.nextInt();
 
-        Random random1=new Random(5);
+        Random random1=new Random();
         System.out.println(" الارقام العشوائية من :  ");
         for(int i=0; i<n; i++){
             for(int j=0; j<y; j++){
